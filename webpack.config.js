@@ -34,12 +34,27 @@ module.exports = {
             loader: "sass-loader"
           }
         ]
+      },
+      {
+        test: /\.(jpg|png)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "image/",
+              publicPath: "image/"
+            }
+          }
+        ]
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin({
-    template: './src/home.html',
-  })],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/home.html"
+    })
+  ],
   devServer: {
     contentBase: "dist/", // Relative directory for base of server
     publicPath: "/", // Live-reload

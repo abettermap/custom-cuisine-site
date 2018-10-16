@@ -1,6 +1,7 @@
 @import "_custom";
 
 @import "~bootstrap/scss/bootstrap";
+
 // // Required
 // @import "~bootstrap/scss/functions";
 // @import "~bootstrap/scss/variables";
@@ -14,3 +15,11 @@
 // @import "~bootstrap/scss/buttons";
 // @import "~bootstrap/scss/grid";
 // @import "~bootstrap/scss/navbar";
+.navbar-brand__subtext {
+    font-size: 0.7em;
+    color: $navbar-dark-disabled-color;
+    display: block;
+}
+
+$link-color: theme-colors("primary");
+$footer-color: $gray-100;

@@ -2,20 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// @import "minima";
 $theme-colors: ("primary": hsl(177, 51%, 45%), "secondary": hsl(40, 84%, 62%));
 @import "bootstrap/bootstrap";
+@import "scss/nav";
 
-$logo-aqua: hsl(166, 51%, 48%);
-
-.site-header {
-  background-color: $logo-aqua;  
-}
-
-.navbar-brand__subtext {
-  font-size: 0.7em;
-  color: $navbar-dark-disabled-color;
-  display: block;
-}
 $link-color: theme-colors("primary");
 $footer-color: $gray-100;

@@ -4,6 +4,8 @@ title: Home
 permalink: /home/
 ---
 
+# PAGE NOT CURRENTLY IN USE, EVERYTHING IN HOME.HTML
+
 ## Full-Service McKinney Based Catering Serving the North Texas Metroplex
 Custom Cuisine Catering based in McKinney, Texas, is a full-service caterer for corporate, private and special events. Let us take care of the cooking and service so you can sit back and enjoy your event.
 

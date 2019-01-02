@@ -28,8 +28,8 @@ $link-hover-color: darken($link-color, 25%);
 @import "bootstrap/media";
 @import "bootstrap/utilities";
 
-@import "scss/nav";
 
 @import "scss/variables";
 @import "scss/layout";
+@import "scss/nav";
 @import "scss/footer";

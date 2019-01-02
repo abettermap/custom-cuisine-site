@@ -1,0 +1,51 @@
+<!-- 
+  Assign current page URL as a variable so we can set an `active` class on nav links 
+  Cred: https://stackoverflow.com/a/19273580/1048518
+-->
+{% assign current = page.url | downcase | split: '/' %}
+
+<nav
+  class="navbar sticky-top navbar-expand-lg navbar-dark bg-secondary justify-content-md-between"
+>
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img
+        src="/assets/image/logo-cropped.png"
+        alt="company logo"
+        class="logo"
+      />
+      <div>
+        {{ site.title | escape }}
+        <span class="navbar-brand__subtext">{{ site.tagline }}</span>
+      </div>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mr-auto my-2 my-lg-0"></div>
+      <ul class="navbar-nav mt-2 mt-lg-0 page--{{ page.class_name }}">
+        <li class="nav-item">
+          <a class="nav-link {% if current[1] == 'services' %}active{% endif %}" href="/services.html">Catering Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if current[1] == 'food' %}active{% endif %}" href="/food.html">Our Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if current[1] == 'contact' %}active{% endif %}" href="/contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if current[1] == 'about' %}active{% endif %}" href="/about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

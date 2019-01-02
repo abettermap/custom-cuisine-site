@@ -1,0 +1,32 @@
+.navbar {
+    box-shadow: 0 3px 9px 0 hsl(0, 0%, 65%);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand__subtext {
+    font-size: 0.7em;
+    color: $navbar-subtle-text;
+    display: block;
+}
+
+.logo {
+    display: inline-block;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        height: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}

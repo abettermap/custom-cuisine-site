@@ -2,12 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$theme-colors: ("primary": hsl(177, 51%, 45%), "secondary": hsl(40, 84%, 62%));
+$theme-colors: ("secondary": hsl(177, 51%, 45%), "primary": hsl(40, 84%, 62%));
 
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 @import "bootstrap/root";
+$link-color: theme-color("secondary");
+$link-hover-color: darken($link-color, 25%);
 @import "bootstrap/reboot";
 @import "bootstrap/type";
 @import "bootstrap/images";
@@ -28,5 +30,5 @@ $theme-colors: ("primary": hsl(177, 51%, 45%), "secondary": hsl(40, 84%, 62%));
 
 @import "scss/nav";
 
-$link-color: theme-colors("primary");
-$footer-color: $gray-100;
+@import "scss/variables";
+@import "scss/footer";

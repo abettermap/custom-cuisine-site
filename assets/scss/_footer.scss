@@ -1,0 +1,12 @@
+.page-footer {
+    padding: 2rem 0;
+    background-color: darken($secondary, 10%);
+}
+
+.page-footer a {
+    color: $navbar-dark-color;
+
+    &:hover {
+        $navbar-dark-hover-color: rgba($white, 0.75) !default;
+    }
+}

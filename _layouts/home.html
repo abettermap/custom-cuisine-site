@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: no-container
 ---
 
 <div class="home">
@@ -8,19 +8,27 @@ layout: default
       <div class="col-md-8 text-center">
         <h1 class="display-4">{{ site.title }}</h1>
         <p class="lead">{{ site.summary }}</p>
-        <img src="/assets/image/buffet.png" alt="buffet" class="rounded img-fluid">
-        <hr class="my-4">
-        <p>
-          Based in McKinney, Texas, <b>Custom Cuisine Catering</b> is a
-          full-service caterer for corporate, private and special events. Let us
-          take care of the cooking and service so you can sit back and enjoy
-          your event.
-        </p>
+        <img
+          src="/assets/image/buffet.png"
+          alt="buffet"
+          class="rounded img-fluid"
+        />
+        <hr class="my-4" />
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p>
+              Based in McKinney, Texas, <b>Custom Cuisine Catering</b> is a
+              full-service caterer for corporate, private and special events. Let us
+              take care of the cooking and service so you can sit back and enjoy
+              your event.
+            </p>
+          </div>
+        </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
             <p class="lead">
               <a
-                href="contact.html"
+                href="/contact.html"
                 class="btn btn-block btn-lg btn-primary my-2 my-sm-0"
                 >Contact Us</a
               >
@@ -34,17 +42,23 @@ layout: default
     <div class="row text-center">
       <div class="col-md-4">
         <div class="card">
-          <img src="/assets/image/sushi.jpg" class="card-img-top" alt="sushi" />
+          <img
+            src="/assets/image/sandwiches.jpg"
+            class="card-img-top"
+            alt="sushi"
+          />
           <div class="card-body">
             <h5 class="card-title">Big or Small, We Cater It All</h5>
             <p class="card-text">
-              Our professional staff can serve groups from 5 to 500.
-              <a href="#">Our events</a> have ranged from high-end receptions to
-              noontime luncheons. Whether it’s a casual buffet or an intimate
-              dinner, Custom Cuisine will create the perfect setting for your
-              next event.
+              Our professional staff can serve groups from 5 to 500. Our events
+              have ranged from high-end receptions to noontime luncheons.
+              <!-- 
+                REMOVED FOR SPACE: Whether it’s a casual buffet or an intimate
+                dinner, Custom Cuisine will create the perfect setting for your
+                next event.
+              -->
             </p>
-            <a href="#" class="btn btn-primary">Book an Event</a>
+            <a href="/contact.html" class="btn btn-primary">Book an Event</a>
           </div>
         </div>
       </div>
@@ -58,13 +72,17 @@ layout: default
               want for breakfast, lunch, or dinner, we can create a delicious
               meal that is sure to please.
             </p>
-            <a href="" class="btn btn-primary">See our Food</a>
+            <a href="/food.html" class="btn btn-primary">See our Food</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="/assets/image/sushi.jpg" class="card-img-top" alt="sushi" />
+          <img
+            src="/assets/image/meat-tray.jpg"
+            class="card-img-top"
+            alt="sushi"
+          />
           <div class="card-body">
             <h5 class="card-title">20 Years of Customer Service</h5>
             <p class="card-text">
@@ -72,12 +90,11 @@ layout: default
               people want. Let us turn your event into an event your guests will
               never forget.
             </p>
-            <a href="" class="btn btn-primary">About Us</a>
+            <a href="/about.html" class="btn btn-primary">About Us</a>
           </div>
         </div>
       </div>
     </div>
-    <p>Contact us to cater corporate and special events.</p>
   </main>
-  <!-- {{ content }} -->
+  {{ content }}
 </div>

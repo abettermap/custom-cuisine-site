@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: calc(100vh - 393px); // super dirty
+}
+
+.intro {
+    font-size: 1.5rem;
+    color: $gray-600;
+    margin-bottom: 2rem;
+}

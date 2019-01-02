@@ -13,19 +13,18 @@ $link-hover-color: darken($link-color, 25%);
 @import "bootstrap/reboot";
 @import "bootstrap/type";
 @import "bootstrap/images";
-@import "bootstrap/code";
 @import "bootstrap/grid";
-@import "bootstrap/forms";
+// @import "bootstrap/forms"; // TODO: restore if needed
 @import "bootstrap/buttons";
 @import "bootstrap/transitions";
-@import "bootstrap/dropdown";
-@import "bootstrap/custom-forms";
+// @import "bootstrap/dropdown"; // TODO: restore if needed
+// @import "bootstrap/custom-forms"; // TODO: restore if needed
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
 @import "bootstrap/card";
-@import "bootstrap/breadcrumb";
+// @import "bootstrap/breadcrumb"; // TODO: restore if needed
 @import "bootstrap/jumbotron";
-@import "bootstrap/media";
+// @import "bootstrap/media"; // TODO: restore if needed
 @import "bootstrap/utilities";
 
 

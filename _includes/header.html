@@ -8,9 +8,9 @@
   class="navbar sticky-top navbar-expand-lg navbar-dark bg-secondary justify-content-md-between"
 >
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
       <img
-        src="/assets/image/logo-cropped.png"
+        src="{{ site.baseurl }}/assets/image/logo-cropped.png"
         alt="company logo"
         class="logo"
       />
@@ -34,16 +34,16 @@
       <div class="mr-auto my-2 my-lg-0"></div>
       <ul class="navbar-nav mt-2 mt-lg-0 page--{{ page.class_name }}">
         <li class="nav-item">
-          <a class="nav-link {% if current[1] == 'services' %}active{% endif %}" href="/services.html">Catering Services</a>
+          <a class="nav-link {% if current[1] == 'services' %}active{% endif %}" href="{{ site.baseurl }}/services.html">Catering Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if current[1] == 'food' %}active{% endif %}" href="/food.html">Our Food</a>
+          <a class="nav-link {% if current[1] == 'food' %}active{% endif %}" href="{{ site.baseurl }}/food.html">Our Food</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if current[1] == 'contact' %}active{% endif %}" href="/contact.html">Contact</a>
+          <a class="nav-link {% if current[1] == 'contact' %}active{% endif %}" href="{{ site.baseurl }}/contact.html">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if current[1] == 'about' %}active{% endif %}" href="/about.html">About</a>
+          <a class="nav-link {% if current[1] == 'about' %}active{% endif %}" href="{{ site.baseurl }}/about.html">About</a>
         </li>
       </ul>
     </div>

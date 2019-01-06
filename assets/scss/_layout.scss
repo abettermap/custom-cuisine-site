@@ -74,3 +74,8 @@ $dotted: (
   background-image: repeating-radial-gradient($dotted);
   background-size: 3px 3px;
 }
+
+// Home
+.home__banner-img {
+  box-shadow: 0 3px 15px 0 $gray-500;
+}

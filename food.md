@@ -11,6 +11,16 @@ intro: >-
   catering services at reasonable prices. 
 ---
 
+## All Styles
+- [Italian](#italian)
+- [Eclectic American](#eclectic-american)
+- [Southern Style](#southern-style)
+- [Mexican/Tex Mex](#mexican-tex-mex)
+- [Light Fare](#light-fare)
+- [Greek](#greek)
+- [Asian](#asian)
+- [International Fusion](#international-fusion)
+
 ## Italian
 Try our signature dish, Primo Pasta Chicken – marinated and grilled bite sized morsels of chicken tossed together with fresh garden vegetables, penne pasta then blended with a roasted red pepper pesto cream sauce, served with on-sit0 e tossed Caesar salad and crispy garlic bread.
 

@@ -1,15 +1,76 @@
 body {
-    min-height: 100vh;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "ABeeZee";
 }
 
 .content-wrap {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    min-height: calc(100vh - 393px); // super dirty
+  padding-bottom: $comfy-padding;
+  min-height: calc(100vh - 393px); // super dirty
 }
 
 .intro {
-    font-size: 1.5rem;
-    color: $gray-600;
-    margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: $white;
+  padding: 1.5rem 0;
+  margin-bottom: $comfy-padding;
+  text-align: center;
+  border: solid $dark-orange;
+  border-width: 4px 0;
+  box-shadow: 0 3px 15px 0 $gray-500;
+  background-color: hsl(37, 77%, 63%);
+}
+
+.intro__heading {
+  text-shadow: 2px 2px 5px darken($primary, 20%);
+}
+
+.intro__text {
+  font-size: 0.85em;
+  font-weight: 200;
+}
+
+// Horizontal rule
+.fancy-hr {
+  border-top: 1px dashed;
+}
+
+.fancy-hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -23px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+$dotted: (
+  center center,
+  $intro-dots,
+  $intro-dots 1px,
+  transparent 1px,
+  transparent 100%
+);
+
+// DOTS cred: https://codepen.io/aleprieto/pen/nAmIy
+.dotted {
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient($dotted);
+  background-image: -moz-repeating-radial-gradient($dotted);
+  background-image: -ms-repeating-radial-gradient($dotted);
+  background-image: repeating-radial-gradient($dotted);
+  background-size: 3px 3px;
 }

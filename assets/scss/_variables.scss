@@ -1,4 +1,30 @@
+/*
+ * 
+ * COLORS
+ * 
+*/
+
+// Raw colors
+$pink: hsl(5, 55%, 63%);
+$dark-pink: darken($pink, 0%);
+$ok-orange: hsl(37, 77%, 63%);
+$dark-orange: darken($ok-orange, 12%);
+
+// Bootstrap
+$link-color: theme-color("secondary");
+$link-hover-color: darken($link-color, 25%);
+
+// Shorthand for theme colors
+$primary: theme-color("primary");
 $secondary: theme-color("secondary");
 
-// Navbar
-$navbar-subtle-text: hsl(177, 47%, 22%);
+// Intro
+$intro-bg: lighten($secondary, 10%);
+$intro-dots: transparentize(darken($intro-bg, 15%), .8);
+
+/*
+ * 
+ * LAYOUT
+ * 
+*/
+$comfy-padding: 2rem;

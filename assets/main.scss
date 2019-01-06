@@ -8,25 +8,25 @@ $theme-colors: ("secondary": hsl(177, 51%, 45%), "primary": hsl(40, 84%, 62%));
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 @import "bootstrap/root";
-$link-color: theme-color("secondary");
-$link-hover-color: darken($link-color, 25%);
 @import "bootstrap/reboot";
 @import "bootstrap/type";
 @import "bootstrap/images";
 @import "bootstrap/grid";
-// @import "bootstrap/forms"; // TODO: restore if needed
+
+// Unused Bootstrap, restore if needed
+// @import "bootstrap/forms";
+// @import "bootstrap/dropdown";
+// @import "bootstrap/custom-forms";
+// @import "bootstrap/breadcrumb";
+// @import "bootstrap/media";
+
 @import "bootstrap/buttons";
 @import "bootstrap/transitions";
-// @import "bootstrap/dropdown"; // TODO: restore if needed
-// @import "bootstrap/custom-forms"; // TODO: restore if needed
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
 @import "bootstrap/card";
-// @import "bootstrap/breadcrumb"; // TODO: restore if needed
 @import "bootstrap/jumbotron";
-// @import "bootstrap/media"; // TODO: restore if needed
 @import "bootstrap/utilities";
-
 
 @import "scss/variables";
 @import "scss/layout";

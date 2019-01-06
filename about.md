@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: About Us
 permalink: /about
 intro: >-
   For over 20 years, Custom Cuisine has provided professional catering services 

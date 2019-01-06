@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Services
+title: Catering Services
 permalink: /services
 intro: >-
   Let us take care of every aspect of your next special event. Custom Cuisine 

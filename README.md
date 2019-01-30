@@ -1,5 +1,5 @@
 # Custom Cuisine Catering
-Website for Rob Wilson's catering service: http://customcuisine.com/.
+Website for Rob Wilson's catering service: http://www.customcuisine.com/.
 
 ## Usage
 

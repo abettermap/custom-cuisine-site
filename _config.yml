@@ -36,7 +36,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-repository: abettermap/custom-cuisine-site.github.io
+repository: www.customcuisine.com
 facebook_username: "Custom-Cuisine-Catering-1578220195769725"
 
 header_pages:

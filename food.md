@@ -22,7 +22,7 @@ intro: >-
 - [International Fusion](#international-fusion)
 
 ## Italian
-Try our signature dish, Primo Pasta Chicken – marinated and grilled bite sized morsels of chicken tossed together with fresh garden vegetables, penne pasta then blended with a roasted red pepper pesto cream sauce, served with on-sit0 e tossed Caesar salad and crispy garlic bread.
+Try our signature dish, Primo Pasta Chicken – marinated and grilled bite sized morsels of chicken tossed together with fresh garden vegetables, penne pasta then blended with a roasted red pepper pesto cream sauce, served with on-site tossed Caesar salad and crispy garlic bread.
 
 - **Gorgonzola Bruschetta** crispy crustinis topped with tomatoes, gorgonzola and basil
 - **Antipasto Meat and Cheese Platters** loaded with aged cheeses, meats, kalamata olives and more

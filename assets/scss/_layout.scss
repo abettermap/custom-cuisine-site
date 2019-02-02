@@ -1,5 +1,5 @@
 body {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 h1,
@@ -14,68 +14,127 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "ABeeZee";
+    font-family: "ABeeZee";
 }
 
 .content-wrap {
-  padding-bottom: $comfy-padding;
-  min-height: calc(100vh - 393px); // super dirty
+    padding-bottom: $comfy-padding;
+    min-height: calc(100vh - 393px); // super dirty
 }
 
 .intro {
-  font-size: 1.5rem;
-  color: $white;
-  padding: 1.5rem 0;
-  margin-bottom: $comfy-padding;
-  text-align: center;
-  border: solid $dark-orange;
-  border-width: 4px 0;
-  box-shadow: 0 3px 15px 0 $gray-500;
-  background-color: hsl(37, 77%, 63%);
+    font-size: 1.5rem;
+    color: $white;
+    padding: 1.5rem 0;
+    margin-bottom: $comfy-padding;
+    text-align: center;
+    border: solid $dark-orange;
+    border-width: 4px 0;
+    box-shadow: 0 3px 15px 0 $gray-500;
+    background-color: hsl(37, 77%, 63%);
 }
 
 .intro__heading {
-  text-shadow: 2px 2px 5px darken($primary, 20%);
+    text-shadow: 2px 2px 5px darken($primary, 20%);
 }
 
 .intro__text {
-  font-size: 0.85em;
-  font-weight: 200;
+    font-size: 0.85em;
+    font-weight: 200;
 }
 
 // Horizontal rule
 .fancy-hr {
-  border-top: 1px dashed;
+    border-top: 1px dashed;
 }
 
 .fancy-hr:after {
-  content: "§";
-  display: inline-block;
-  position: relative;
-  top: -23px;
-  padding: 0 10px;
-  font-size: 14px;
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -23px;
+    padding: 0 10px;
+    font-size: 14px;
 }
 
-$dotted: (
-  center center,
-  $intro-dots,
-  $intro-dots 1px,
-  transparent 1px,
-  transparent 100%
-);
+$dotted: center center, $intro-dots, $intro-dots 1px, transparent 1px, transparent 100%;
 
 // DOTS cred: https://codepen.io/aleprieto/pen/nAmIy
 .dotted {
-  padding: 2.25em 1.6875em;
-  background-image: -webkit-repeating-radial-gradient($dotted);
-  background-image: -moz-repeating-radial-gradient($dotted);
-  background-image: -ms-repeating-radial-gradient($dotted);
-  background-image: repeating-radial-gradient($dotted);
-  background-size: 3px 3px;
+    padding: 2.25em 1.6875em;
+    background-image: -webkit-repeating-radial-gradient($dotted);
+    background-image: -moz-repeating-radial-gradient($dotted);
+    background-image: -ms-repeating-radial-gradient($dotted);
+    background-image: repeating-radial-gradient($dotted);
+    background-size: 3px 3px;
 }
 
 // Home
 .home__banner-img {
-  box-shadow: 0 3px 15px 0 $gray-500;
+    box-shadow: 0 3px 15px 0 $gray-500;
+}
+
+// Food page \\
+// Panel toggle button wrap (MD auto-produces paragraphs, wrap w/div instead)
+.btn-wrap {
+    display: inline-block;
+    float: left;
+}
+
+.page--our-food h2 {
+    display: inline-block;
+    float: left;
+    clear: right;
+    cursor: pointer;
+    transition: 300ms;
+
+    &:hover {
+      color: $link-color;
+    }
+
+    // Shabby way to target corresponding panel (ONE section has a <p> in
+    // addition to <ul>).
+    + * {
+        clear: both;
+        transform: scaleY(0);
+        max-height: 0;
+
+        &.open {
+            overflow: hidden;
+            transition: transform 0.3s ease-out;
+            height: auto;
+            transform: scaleY(1);
+            transform-origin: top;
+            max-height: 1000px;
+        }
+    }
+}
+
+.btn-toggle-panel {
+    transition: 300ms;
+    width: 2rem;
+    height: 2rem;
+    background-color: lighten($link-color, 10%);
+    border-radius: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+    transform-origin: center;
+    transform: rotate(180deg);
+
+    &:hover {
+        background-color: $link-color;
+    }
+}
+
+.btn-toggle-panel.rotate-90 {
+  transform: rotate(0deg);
+}
+
+.arrow {
+    line-height: 1;
+    color: $white;
+    font-weight: bold;
+    font-size: 1.5rem;
 }

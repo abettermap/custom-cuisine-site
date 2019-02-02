@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Based in McKinney, Texas, Custom Cuisine Catering is a full-service caterer
   for corporate, private and special events. Let us take care of the cooking 
   and service so you can sit back and enjoy your event.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

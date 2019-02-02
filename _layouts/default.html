@@ -3,7 +3,11 @@
 
 {%- include head.html -%}
 
+{%- if page.title -%}
+<body class="page--{{ page.title | replace: " ", "-" | downcase }}">
+{%- else -%}
 <body>
+{%- endif -%}
 
   {%- include header.html -%}
 
@@ -23,7 +27,11 @@
   <div class="content-wrap">
     <main class="container">
       <div class="row">
-        <div class="col-md-12">
+          {%- if page.narrow_content -%}
+          <div class="col-md-8 offset-md-2"></div>
+          {%- else -%}
+          <div class="col-md-12">
+          {%- endif -%}
           {{ content }}
         </div>
       </div>

@@ -5,8 +5,9 @@ permalink: /about
 intro: >-
   For over 20 years, Custom Cuisine has provided professional catering services 
   at reasonable prices in the North Texas Area. Custom Cuisine represents our 
-  philosophy about catering. We don’t limit our offerings with preset menus. 
-  All our clients are unique and different.
+  philosophy about catering. All our clients are unique and different so we 
+  don’t limit our offerings to preset menus. Call for a free consultation 
+  today.
 ---
 
 ## Philosophy

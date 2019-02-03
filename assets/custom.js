@@ -11,7 +11,7 @@
     $(this).closest('.btn-wrap').next().next().toggleClass('open');
   });
 
-  $('.page--our-food h2').click(function () {
+  $('.page--endless-choices h2').click(function () {
     // Rotate button
     $(this).prev().find('.btn-toggle-panel').toggleClass('rotate-90');
     // Toggle corresponding panel visibility (gross)

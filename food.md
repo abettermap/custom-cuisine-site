@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Our Food
+title: Endless Choices
 narrow_content: true
 permalink: /food
 intro: >-
-  Over the past 20 years, we have provided a diverse array of culinary fare. 
-  Want something not listed? Maybe your grandmother’s sweet potato casserole
-  recipe, your boss’s favorite sandwich or the favorite dish of your bride to 
-  be, we are totally flexible, just let us know and we will customize a menu to 
-  meet your specifications. Our goal is to provide you with quality customized 
-  catering services at reasonable prices.
+  Custom Cuisine provides a diverse array of culinary fare. Want something not 
+  listed? Maybe your grandmother’s sweet potato casserole recipe, your boss’s 
+  favorite sandwich or the favorite dish of your bride-to-be, we are totally 
+  flexible, just let us know and we will customize a menu to meet your 
+  specifications. Our goal is to provide you with quality customized catering 
+  services at reasonable prices.
 ---
 
 <div class="btn-wrap">
